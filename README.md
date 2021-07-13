@@ -1,5 +1,9 @@
 # Curve email templates
 
+# Assets
+
+Assets are hosted in [Cloudinary](https://cloudinary.com/console/c-63013a217551ba32ed268f77db7bd8/media_library/folders/45b279b8cafc33a9afe1a437ad459a37).
+
 ## Learning More
 
 Check these out to dig deeper into different aspects of email development:
