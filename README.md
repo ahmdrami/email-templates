@@ -1,6 +1,6 @@
 # Curve email templates
 
-# Assets
+## Assets
 
 Assets are hosted in [Cloudinary](https://cloudinary.com/console/c-63013a217551ba32ed268f77db7bd8/media_library/folders/45b279b8cafc33a9afe1a437ad459a37).
 
@@ -32,9 +32,4 @@ Check these out to dig deeper into different aspects of email development:
 - [Mailchimp CSS inliner](https://templates.mailchimp.com/resources/inline-css/)
 - [Bulletproof Buttons generator](https://buttons.cm/)
 - [Bulletproof Backgrounds generator](https://backgrounds.cm/)
-
-## Connecting with Email Folks
-
-- [#EmailGeeks Slack channel](https://email.geeks.chat/)
-- [The Litmus Community](https://litmus.com/community)
-- [Some good people to follow](https://thebetter.email/resources#people)
+- [Tinypng](https://tinypng.com/)
