@@ -33,3 +33,5 @@ Check these out to dig deeper into different aspects of email development:
 - [Bulletproof Buttons generator](https://buttons.cm/)
 - [Bulletproof Backgrounds generator](https://backgrounds.cm/)
 - [Tinypng](https://tinypng.com/)
+- [Dark mode](https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers/)
+- [Mix blend technique](https://www.hteumeuleu.com/2021/fixing-gmail-dark-mode-css-blend-modes/)
