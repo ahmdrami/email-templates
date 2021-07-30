@@ -7,15 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    <!--[if mso]>
-      <xml>
-        <o:OfficeDocumentSettings>
-          <o:AllowPNG />
-          <o:PixelsPerInch>96</o:PixelsPerInch>
-        </o:OfficeDocumentSettings>
-      </xml>
-    <![endif]-->
+    <style type="text/css"></style>
     <style>
       /* LOAD FONT FAMILY */
       @font-face {
@@ -129,18 +121,16 @@
         .mobile-center {
           text-align: center !important;
         }
+        .mobile-top-30 {
+          margin: 30px 0 0 0 !important;
+        }
       }
       @media (prefers-color-scheme: dark) {
         .light-bg {
           background-color: #ffffff !important;
         }
         .dark-text {
-          color: #1e1e1e !important;
-        }
-      }
-      @media screen and (max-width: 500px) {
-        .mobile-hero-height {
-          height: 90vw !important;
+          color: #000000 !important;
         }
       }
       /* Custom Dark Mode Text Link Color */
@@ -148,11 +138,11 @@
         background-color: #ffffff !important;
       }
       [data-ogsc] .dark-text {
-        color: #1e1e1e !important;
+        color: #000000 !important;
       }
     </style>
   </head>
-  <body id="body" style="margin: 0 !important; padding: 0 !important; background-image: url(https://res.cloudinary.com/dzatxn6bx/image/upload/v1626252675/email/templates/grey-bg.jpg)">
+  <body id="body" class="body" style="margin: 0 !important; padding: 0 !important; background-image: url(https://res.cloudinary.com/dzatxn6bx/image/upload/v1626252675/email/templates/grey-bg.jpg)">
     <!-- Preview text for the inbox -->
     <div style="display: none; max-height: 0; overflow: hidden">This will be displayed underneath the subject line. Use it wisely.</div>
 
@@ -160,7 +150,7 @@
 		  <table cellspacing="0" cellpadding="0" border="0" width="640" align="center" role="presentation"><tr><td>
 		  <![endif]-->
 
-    <div style="font-family: 'HelveticaNow', Helvetica, Roboto, Verdana, Arial, sans-serif; font-size: 16px; margin: 50px auto; max-width: 640px; padding: 50px 12px">
+    <div style="font-family: 'HelveticaNow', Helvetica, Roboto, Verdana, Arial, sans-serif; font-size: 16px; margin: 0 auto; padding: 50px 12px; max-width: 640px">
       <!-- Logo image -->
       <center>
         <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
@@ -168,22 +158,22 @@
           <tr>
             <td align="center" height="100%" valign="top" width="100%">
               <!--[if (gte mso 9)|(IE)]>
-                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="660">
-                    <tr>
-                    <td align="center" valign="top" width="660">
-                    <![endif]-->
+                  <table align="center" border="0" cellspacing="0" cellpadding="0" width="660">
+                  <tr>
+                  <td align="center" valign="top" width="660">
+                  <![endif]-->
               <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px">
                 <tr>
-                  <td align="center" valign="middle" style="background-color: #1e1e1e; margin: 0 !important; height: 78px; border-top-left-radius: 24px; border-top-right-radius: 24px">
-                    <img src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1626087658/Icons/curve-logo.png" alt="Curve brand logo" width="142px" style="width: 142px" border="0" />
+                  <td class="light-bg" align="center" valign="middle" style="margin: 0 !important; height: 78px; border-top-left-radius: 24px; border-top-right-radius: 24px; background: #ffffff; background-image: linear-gradient(#fff, #fff)">
+                    <img src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1626268159/email/templates/curve-logo-dark.png" alt="Curve brand logo" width="142px" style="width: 142px" border="0" />
                   </td>
                 </tr>
               </table>
               <!--[if (gte mso 9)|(IE)]>
-                    </td>
-                    </tr>
-                    </table>
-                    <![endif]-->
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]-->
             </td>
           </tr>
           <!-- END 1-COLUMN SCAFFOLD  -->
@@ -193,105 +183,66 @@
       <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
         <!-- 1-COLUMN SCAFFOLD -->
         <tr>
-          <td align="center" height="100%" valign="top" width="100%" style="background-color: #1e1e1e; color: #ffffff; padding: 75px 0 0 0">
-            <!--[if (gte mso 9)|(IE)]>
-				  <table align="center" border="0" cellspacing="0" cellpadding="0" width="450">
-				  <tr>
-				  <td align="center" valign="top" width="450">
-				  <![endif]-->
-            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 440px">
-              <tr>
-                <td align="center" valign="top">
-                  <!-- title  -->
-                  <h1 style="font-size: 55px; line-height: 55px; margin: 0px auto 75px auto; text-align: center; padding: 0 15px 0 15px">It pays to shop with Curve.</h1>
-                  <!-- Hero image -->
-                  <div style="height: 475px" class="mobile-hero-height">
-                    <img alt="A cheerful looking mailbox in front of green plants and flowers." src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1627633874/email/templates/rewards.png" border="0" style="display: block; margin: 0 0 0 0; max-width: 100%; min-width: 150px; width: 100%" />
-                  </div>
-                </td>
-              </tr>
-            </table>
-            <!--[if (gte mso 9)|(IE)]>
-				  </td>
-				  </tr>
-				  </table>
-				  <![endif]-->
-          </td>
-        </tr>
-        <!-- END 1-COLUMN SCAFFOLD -->
-
-        <!-- START 1-COLUMN SCAFFOLD -->
-        <tr>
-          <td align="center" height="100%" valign="top" width="100%">
-            <!--[if (gte mso 9)|(IE)]>
-				  <table align="center" border="0" cellspacing="0" cellpadding="0" width="450">
-				  <tr>
-				  <td align="center" valign="top" width="450">
-				  <![endif]-->
-            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
-              <tr>
-                <td align="center" valign="top" style="background: #fff; color: #111; background-image: linear-gradient(#fff, #fff); padding: 75px 50px 50px 50px; max-width: 440px">
-               
-                  <div style="background: #fff; mix-blend-mode: exclusion; max-width: 450px; margin: 0 auto 0 auto">
-                    <p style="margin: 75px 0 0 0; text-align: center; line-height: 22px; background-color: #ffffff; mix-blend-mode: difference">Hope you’re enjoying Curve and making the most of your 1% welcome cashback offer. Now you’ve settled in, we thought we’d let you in on Rewards – another great way to earn cashback with Curve.</p>
-                  </div>
-
-                  <!-- CTA -->
-                  <div>
-                    <!--[if mso]>
-                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="80%" stroke="f" fillcolor="#DC1F26">
-                      <w:anchorlock/>
-                      <center>
-                    <![endif]-->
-                    <a href="http://" style="background-color: #dc1f26; border-radius: 24px; color: #ffffff; display: inline-block; font-size: 18px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; padding: 0 12px 0 12px; margin: 50px 0px 50px 0px; -webkit-text-size-adjust: none">CHECKOUT REWARDS</a>
-                    <!--[if mso]>
-                    </center>
-                  </v:roundrect>
-                  <![endif]-->
-                  </div>
-
-                  <div style="background: #fff; mix-blend-mode: exclusion; max-width: 450px; margin: 0 auto 0 auto">
-                    <p style="margin: 0 0 0 0; text-align: center; line-height: 22px; background-color: #ffffff; mix-blend-mode: difference">Pay with Curve 3 times to unlock Curve Rewards – one-time cashback offers from tons of amazing brands like Amazon, Selfridges, Costa, Five Guys, and more. You can grab up to 20% cashback on anything from your weekly shop to your next fashion fix.</p>
-                  </div>
-                </td>
-              </tr>
-            </table>
-            <!--[if (gte mso 9)|(IE)]>
-				  </td>
-				  </tr>
-				  </table>
-				  <![endif]-->
-          </td>
-        </tr>
-        <!-- END 1-COLUMN SCAFFOLD -->
-
-        <!-- START 1-COLUMN SCAFFOLD [CENTERING, FLUID] -->
-        <tr>
-          <td align="center" height="100%" valign="top" width="100%" style="background-color: #dc1f26; color: #ffffff; padding: 75px 50px 75px 50px">
+          <td align="center" height="100%" valign="top" width="100%" style="background: #ffffff; background-image: linear-gradient(#fff, #fff)">
             <!--[if (gte mso 9)|(IE)]>
         <table align="center" border="0" cellspacing="0" cellpadding="0" width="450">
         <tr>
         <td align="center" valign="top" width="450">
         <![endif]-->
-            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 450px">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
               <tr>
-                <td align="center" valign="top">
-                  <h3 style="font-size: 30px; line-height: 30px; margin: 0px auto 25px auto; text-align: center">Fancy a top-up?</h3>
+                <td align="center" valign="top" style="background: #fff; color: #111; background-image: linear-gradient(#fff, #fff)">
+                  <!-- Main title -->
+                  <div style="background: #fff; mix-blend-mode: exclusion; max-width: 450px; width: 100%">
+                    <h1 style="font-size: 55px; line-height: 55px; margin: 60px auto 0 auto; text-align: center; background-color: #ffffff; mix-blend-mode: difference">It's not goodbye</h1>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="top" width="100%">
+                  <!-- Hero image -->
+                  <img alt="A cheerful looking mailbox in front of green plants and flowers." src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1627642359/email/templates/Email8_Hero_2x.png" border="0" style="display: block; margin: 65px 0 65px 0; max-width: 100%; min-width: 75px; width: 100%" />
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="top" style="background: #fff; color: #111; background-image: linear-gradient(#fff, #fff); padding: 0 24px 0 24px">
                   <!-- Body copy -->
-                  <p style="text-align: center; line-height: 22px">Snap up a nice cashback offer in your first 30 days and automatically earn 1% on top – that’s a double serving of cashback on a single payment.</p>
+
+                  <div style="background: #fff; mix-blend-mode: exclusion; max-width: 450px; width: 100%">
+                    <p style="margin: 0 0 40px 0; text-align: center; line-height: 22px; background-color: #fff; mix-blend-mode: difference">
+                      Not ready to say goodbye yet? You don’t have to.
+                      <br />
+                      <br />
+                      Refer a friend to keep the cashback rolling in. The more friends you bring, the longer you get cashback on your everyday spend. 1 x friend = 1% cashback for 30 days = Up to £20 12 friends = 1% cashback for 360 days = Up to £240
+                    </p>
+                  </div>
+                  <div style="background: #fff; mix-blend-mode: exclusion; max-width: 450px; width: 100%">
+                    <p style="font-weight: bold; margin: 0 0 40px 0; text-align: center; line-height: 22px; background-color: #fff; mix-blend-mode: difference">
+                      1 x friend = 1% cashback for 30 days = Up to £20 <br />
+                      12 friends = 1% cashback for 360 days = Up to £240
+                    </p>
+                  </div>
 
                   <!-- CTA -->
                   <div>
                     <!--[if mso]>
-                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="80%" stroke="f" fillcolor="#DC1F26">
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:50px;v-text-anchor:middle;width:200px;" arcsize="80%" stroke="f" fillcolor="#DC1F26">
                       <w:anchorlock/>
                       <center>
                     <![endif]-->
-                    <a href="http://" style="background-color: #1e1e1e; border-radius: 24px; color: #ffffff; display: inline-block; font-size: 18px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; padding: 0 24px 0 24px; margin: 50px 0px 50px 0px; -webkit-text-size-adjust: none">ADD TO APPLE PAY</a>
+                    <a href="https://www.curve.com" style="background-color: #dc1f26; border-radius: 24px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 18px; font-weight: bold; line-height: 45px; text-align: center; padding: 0 12px; text-decoration: none; width: 200px; margin: 0px 0px 60px 0px; -webkit-text-size-adjust: none">REFER A FRIEND</a>
                     <!--[if mso]>
-                    </center>
-                  </v:roundrect>
-                  <![endif]-->
+                      </center>
+                    </v:roundrect>
+                    <![endif]-->
+                  </div>
+
+                  <div style="background: #fff; mix-blend-mode: exclusion; max-width: 450px; width: 100%">
+                    <p style="font-size: 12px; margin: 0 0 40px 0; text-align: center; line-height: 22px; background-color: #fff; mix-blend-mode: difference">
+                      *Max £20 cashback per 30 days. <br />
+                      *Exc gambling, tax, government or financial services payments.<br />
+                      *Enemies also accepted.
+                    </p>
                   </div>
                 </td>
               </tr>
@@ -303,7 +254,42 @@
         <![endif]-->
           </td>
         </tr>
+        <!-- END 1-COLUMN SCAFFOLD // -->
+
+        <!-- START 1-COLUMN SCAFFOLD [CENTERING, FLUID] -->
+        <tr>
+          <td align="center" height="100%" valign="top" width="100%" style="background-color: #dc1f26; color: #ffffff; padding: 75px 0px 75px 0px">
+            <!--[if (gte mso 9)|(IE)]>
+				  <table align="center" border="0" cellspacing="0" cellpadding="0" width="450">
+				  <tr>
+				  <td align="center" valign="top" width="450">
+				  <![endif]-->
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 450px">
+              <tr>
+                <td align="center" valign="top" style="padding: 0 24px 0 24px">
+                  <h3 style="font-size: 30px; line-height: 30px; margin: 0px auto 25px auto; text-align: center">How it works</h3>
+                  <!-- Body copy -->
+                  <p style="text-align: center; line-height: 22px">You share Curve. Your friend signs up with your link and spends with Curve. Boom – 30 days of cashback.</p>
+
+                  <div>
+                    <a href="https://www.curve.com" style="display: block; margin: 20px 0 0 0">
+                      <img style="max-width: 385px; width: 100%; vertical-align: middle; border: 0" src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1627639078/email/templates/share-curve.png" />
+                    </a>
+                  </div>
+
+                  <p style="text-align: center; line-height: 22px">Go to Account > Settings > Share Curve</p>
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+				  </td>
+				  </tr>
+				  </table>
+				  <![endif]-->
+          </td>
+        </tr>
         <!-- END  1-COLUMN SCAFFOLD [CENTERING, FLUID] -->
+
         <!-- FOOTER -->
         <tr>
           <td align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -403,7 +389,7 @@
       </table>
     </div>
     <!--[if (gte mso 9)|(IE)]>
-		  </td></tr></table>
-		  <![endif]-->
+      </td></tr></table>
+      <![endif]-->
   </body>
 </html>
