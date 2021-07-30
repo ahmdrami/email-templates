@@ -7,7 +7,15 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <style type="text/css"></style>
+
+    <!--[if mso]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG />
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+    <![endif]-->
     <style>
       /* LOAD FONT FAMILY */
       @font-face {
@@ -26,7 +34,7 @@
       }
       /* CLIENT-SPECIFIC STYLES */
       :root {
-        color-scheme: light !important;
+        color-scheme: light;
       }
 
       body,
@@ -127,7 +135,12 @@
           background-color: #ffffff !important;
         }
         .dark-text {
-          color: #000000 !important;
+          color: #1e1e1e !important;
+        }
+      }
+      @media screen and (max-width: 500px) {
+        .mobile-hero-height {
+          height: 90vw !important;
         }
       }
       /* Custom Dark Mode Text Link Color */
@@ -135,7 +148,7 @@
         background-color: #ffffff !important;
       }
       [data-ogsc] .dark-text {
-        color: #000000 !important;
+        color: #1e1e1e !important;
       }
     </style>
   </head>
@@ -147,7 +160,7 @@
 		  <table cellspacing="0" cellpadding="0" border="0" width="640" align="center" role="presentation"><tr><td>
 		  <![endif]-->
 
-    <div style="font-family: 'HelveticaNow', Helvetica, Roboto, Verdana, Arial, sans-serif; font-size: 16px; margin: 50px auto; max-width: 640px; padding: 50px 12px 75px">
+    <div style="font-family: 'HelveticaNow', Helvetica, Roboto, Verdana, Arial, sans-serif; font-size: 16px; margin: 50px auto; max-width: 640px; padding: 50px 12px">
       <!-- Logo image -->
       <center>
         <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
@@ -161,8 +174,8 @@
                     <![endif]-->
               <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px">
                 <tr>
-                  <td align="center" valign="middle" style="background: #ffffff; background-image: linear-gradient(#fff, #fff); margin: 0 !important; height: 78px; border-top-left-radius: 24px; border-top-right-radius: 24px">
-                    <img src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1626268159/email/templates/curve-logo-dark.png" alt="Curve brand logo" width="142px" style="width: 142px" border="0" />
+                  <td align="center" valign="middle" style="background-color: #1e1e1e; margin: 0 !important; height: 78px; border-top-left-radius: 24px; border-top-right-radius: 24px">
+                    <img src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1626087658/Icons/curve-logo.png" alt="Curve brand logo" width="142px" style="width: 142px" border="0" />
                   </td>
                 </tr>
               </table>
@@ -180,6 +193,35 @@
       <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
         <!-- 1-COLUMN SCAFFOLD -->
         <tr>
+          <td align="center" height="100%" valign="top" width="100%" style="background-color: #1e1e1e; color: #ffffff; padding: 75px 0 0 0">
+            <!--[if (gte mso 9)|(IE)]>
+				  <table align="center" border="0" cellspacing="0" cellpadding="0" width="450">
+				  <tr>
+				  <td align="center" valign="top" width="450">
+				  <![endif]-->
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 440px">
+              <tr>
+                <td align="center" valign="top">
+                  <!-- title  -->
+                  <h1 style="font-size: 55px; line-height: 55px; margin: 0px auto 75px auto; text-align: center; padding: 0 15px 0 15px">The next generation money app.</h1>
+                  <!-- Hero image -->
+                  <div style="height: 475px" class="mobile-hero-height">
+                    <img alt="A cheerful looking mailbox in front of green plants and flowers." src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1627554740/email/templates/welcome-email.png" border="0" style="display: block; margin: 0 0 0 0; max-width: 100%; min-width: 150px; width: 100%" />
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+				  </td>
+				  </tr>
+				  </table>
+				  <![endif]-->
+          </td>
+        </tr>
+        <!-- END 1-COLUMN SCAFFOLD -->
+
+        <!-- START 1-COLUMN SCAFFOLD -->
+        <tr>
           <td align="center" height="100%" valign="top" width="100%">
             <!--[if (gte mso 9)|(IE)]>
 				  <table align="center" border="0" cellspacing="0" cellpadding="0" width="450">
@@ -188,54 +230,36 @@
 				  <![endif]-->
             <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
               <tr>
-                <td align="center" valign="top">
-                  <!-- Hero image -->
-                  <img alt="A cheerful looking mailbox in front of green plants and flowers." src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1626182574/email/templates/template-3.jpg" width="336px" border="0" style="display: block; margin: 0 0 0 0; max-width: 100%; min-width: 75px; width: 100%" />
-                </td>
-              </tr>
-            </table>
-            <!--[if (gte mso 9)|(IE)]>
-				  </td>
-				  </tr>
-				  </table>
-				  <![endif]-->
-          </td>
-        </tr>
+                <td align="center" valign="top" style="background: #fff; color: #111; background-image: linear-gradient(#fff, #fff); padding: 75px 50px 50px 50px; max-width: 440px">
+                  <div style="background: #fff; mix-blend-mode: exclusion">
+                    <h3 style="font-size: 30px; line-height: 30px; margin: 75px auto 30px auto; text-align: center; padding: 0 15px 0 15px; background-color: #ffffff; mix-blend-mode: difference">Welcome!</h3>
+                  </div>
+                  <div style="background: #fff; mix-blend-mode: exclusion">
+                    <p style="margin: 30px 0 0 0; text-align: center; line-height: 22px; background-color: #ffffff; mix-blend-mode: difference">
+                      Thanks for signing up to Curve.
+                      <br />
+                      <br />
+                      Make a strong start with 1% cashback on (almost) everything for your first 30 days* You’re so close – just finish signing up to start earning cashback.
+                    </p>
+                  </div>
 
-        <!-- 1-COLUMN SCAFFOLD -->
-        <tr>
-          <td align="center" height="100%" valign="top" width="100%" style="background-color: #ffffff; background-image: linear-gradient(#fff, #fff); padding: 75px 50px 75px 50px">
-            <!--[if (gte mso 9)|(IE)]>
-				  <table align="center" border="0" cellspacing="0" cellpadding="0" width="450">
-				  <tr>
-				  <td align="center" valign="top" width="450">
-				  <![endif]-->
-            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 500px">
-              <tr>
-                <td align="center" valign="top" style="background: #fff; color: #111; background-image: linear-gradient(#fff, #fff)">
-                  <div style="background: #fff; mix-blend-mode: exclusion">
-                    <h1 style="font-size: 55px; line-height: 55px; margin: 0px auto 30px auto; text-align: center; background-color: #ffffff; mix-blend-mode: difference">Lorem ipsum dolor sit amet</h1>
-                  </div>
-                  <!-- Body copy -->
-                  <div style="background: #fff; mix-blend-mode: exclusion">
-                    <p style="margin: 0 0 30px 0; text-align: center; line-height: 24px; background-color: #ffffff; mix-blend-mode: difference">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi velit auctor eu a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi velit auctor eu a.</p>
-                  </div>
-                  <div style="background: #fff; mix-blend-mode: exclusion">
-                    <p style="margin: 0 0 30px 0; text-align: center; line-height: 24px; background-color: #ffffff; mix-blend-mode: difference">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi velit auctor eu a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi velit auctor eu a.</p>
-                  </div>
                   <!-- CTA -->
                   <div>
                     <!--[if mso]>
-                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:150px;" arcsize="80%" stroke="f" fillcolor="#DC1F26">
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="80%" stroke="f" fillcolor="#DC1F26">
                       <w:anchorlock/>
                       <center>
                     <![endif]-->
-                    <a href="http://" style="background-color: #dc1f26; border-radius: 24px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 18px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; width: 150px; margin: 0px 0px 0px 0px; -webkit-text-size-adjust: none">Learn more</a>
+                    <a href="http://" style="background-color: #dc1f26; border-radius: 24px; color: #ffffff; display: inline-block; font-size: 18px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; width: 200px; margin: 25px 0px 0px 0px; -webkit-text-size-adjust: none">GET STARTED</a>
                     <!--[if mso]>
                     </center>
                   </v:roundrect>
                   <![endif]-->
                   </div>
+
+                  <div style="background: #fff; mix-blend-mode: exclusion">
+                    <p style="margin: 30px 0 0 0; text-align: center; font-size: 12px; line-height: 12px; background-color: #ffffff; mix-blend-mode: difference">Exc. gambling, tax, government or financial services payments. Max. cashback £20</p>
+                  </div>
                 </td>
               </tr>
             </table>
@@ -246,232 +270,261 @@
 				  <![endif]-->
           </td>
         </tr>
+        <!-- END 1-COLUMN SCAFFOLD -->
 
         <!--  2-COLUMN SCAFFOLD [CENTERING, FLUID] -->
         <tr>
-          <td align="center" height="100%" valign="top" width="100%" style="background-color: #1e1e1e; color: #ffffff; line-height: 22px">
+          <td align="center" height="100%" valign="top" width="100%" style="background-color: #dc1f26; color: #ffffff">
             <!--[if (gte mso 9)|(IE)]>
-                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
-                    <tr>
-                    <td align="center" valign="top" width="640">
-                    <![endif]-->
-            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px">
               <tr>
-                <td align="center" valign="center" style="font-size: 0; display: table-cell; padding: 0px 25px 0 25px">
+                <td align="center" valign="center" style="font-size: 0; padding: 40px 40px 75px 40px">
                   <!--[if (gte mso 9)|(IE)]>
-                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
-                        <tr>
-                        <td align="left" valign="top" width="300">
-                        <![endif]-->
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                <tr>
+                <td align="left" valign="top" width="300">
+                <![endif]-->
                   <div style="display: inline-block; max-width: 50%; vertical-align: top; width: 100%" class="mobile">
                     <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px">
                       <tr>
-                        <td align="center" valign="center" style="font-size: 16px; padding: 75px 25px 0 25px">
-                          <img style="display: block; max-width: 120px; min-width: 75px; width: 100%" src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1626182574/email/templates/illustration-5.png" alt="Curve" />
-                          <p style="margin: 30px 0 30px 0; text-align: center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro voluptates quo, cupiditate ex placeat alias doloremque minima laborum. lore</p>
-                          <!-- CTA -->
-                          <div>
-                            <!--[if mso]>
-                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:150px;" arcsize="80%" stroke="f" fillcolor="#DC1F26">
-                      <w:anchorlock/>
-                      <center>
-                    <![endif]-->
-                            <a href="https://www.curve.com" style="background-color: #dc1f26; border-radius: 24px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 18px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; width: 150px; margin: 0px 0px 0px 0px; -webkit-text-size-adjust: none">CTA</a>
-                            <!--[if mso]>
-                      </center>
-                    </v:roundrect>
-                    <![endif]-->
-                          </div>
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                  <!--[if (gte mso 9)|(IE)]>
-                          </td>
-                          <td align="left" valign="top" width="300">
-                          <![endif]-->
-                  <div style="display: inline-block; max-width: 50%; vertical-align: top; width: 100%" class="mobile">
-                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px">
-                      <tr>
-                        <td align="center" valign="center" style="font-size: 16px; text-align: center; padding: 75px 25px 0 25px">
-                          <img style="display: block; max-width: 120px; min-width: 75px; margin: 0 auto; width: 100%" src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1626182573/email/templates/illustration-2.png" alt="Curve" />
-                          <p style="margin: 30px 0 30px 0; text-align: center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro voluptates quo, cupiditate ex placeat alias doloremque minima laborum. consectetur adipisicing elit. Porro voluptates quo, cupiditate ex placeat alias doloremque minima laborum.</p>
-                          <!-- CTA -->
-                          <div>
-                            <!--[if mso]>
-                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:150px;" arcsize="80%" stroke="f" fillcolor="#DC1F26">
-                      <w:anchorlock/>
-                      <center>
-                    <![endif]-->
-                            <a href="https://www.curve.com" style="background-color: #dc1f26; border-radius: 24px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 18px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; width: 150px; margin: 0px 0px 0px 0px; -webkit-text-size-adjust: none">CTA</a>
-                            <!--[if mso]>
-                      </center>
-                    </v:roundrect>
-                    <![endif]-->
-                          </div>
+                        <td align="center" valign="center" style="font-size: 16px">
+                          <img style="margin: 40px 0 0 0; display: block; max-width: 180px; min-width: 75px; width: 100%" src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1627554740/email/templates/gift-icon.png" alt="Curve" />
                         </td>
                       </tr>
                     </table>
                   </div>
                   <!--[if (gte mso 9)|(IE)]>
                   </td>
-                  </tr>
-                  </table>
+                  <td align="left" valign="top" width="300">
                   <![endif]-->
+                  <div style="display: inline-block; max-width: 50%; vertical-align: top; width: 100%" class="mobile">
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px">
+                      <tr>
+                        <td align="center" valign="center" style="font-size: 16px; line-height: 22px; text-align: left" class="mobile-center">
+                          <h2 style="font-size: 30px; margin: 30px 0 30px 0; line-height: 35px">Make shopping your side hustle</h2>
+                          <p style="margin: 0 0 30px 0">Build up some extra cash with Curve Rewards and earn up to 20% cashback from top brands.</p>
+
+                          <!-- CTA -->
+                          <div>
+                            <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="80%" stroke="f" fillcolor="#1e1e1e">
+                      <w:anchorlock/>
+                      <center>
+                    <![endif]-->
+                            <a href="https://www.curve.com" style="background-color: #1e1e1e; border-radius: 24px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 18px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; width: 200px; margin: 0px 0px 0px 0px; -webkit-text-size-adjust: none">CHECK MY REWARDS</a>
+                            <!--[if mso]>
+                      </center>
+                    </v:roundrect>
+                    <![endif]-->
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+					</td>
+					</tr>
+					</table>
+					<![endif]-->
                 </td>
               </tr>
             </table>
             <!--[if (gte mso 9)|(IE)]>
-                </td>
-                </tr>
-                </table>
+				</td>
+				</tr>
+				</table>
+				<![endif]-->
+          </td>
+        </tr>
+
+        <!--  2-COLUMN SCAFFOLD [CENTERING, FLUID] -->
+        <tr>
+          <td align="center" height="100%" valign="top" width="100%" style="background-color: #1e1e1e; color: #ffffff">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px">
+              <tr>
+                <td dir="rtl" align="center" valign="center" style="font-size: 0; padding: 40px 40px 75px 40px">
+                  <!--[if (gte mso 9)|(IE)]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                <tr>
+             
+                <td align="left" valign="top" width="300">
                 <![endif]-->
+                  <div style="display: inline-block; max-width: 50%; vertical-align: top; width: 100%" class="mobile">
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px">
+                      <tr>
+                        <td align="center" valign="center" style="font-size: 16px">
+                          <img style="margin: 40px 0 0 0; display: block; max-width: 180px; min-width: 75px; width: 100%" src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1627554740/email/templates/lock-dark.png" alt="Curve" />
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                </td>
+                     <td align="left" valign="top" width="300">
+                  <![endif]-->
+                  <div style="display: inline-block; max-width: 50%; vertical-align: top; width: 100%" class="mobile">
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px">
+                      <tr>
+                        <td align="center" valign="center" style="font-size: 16px; line-height: 22px; text-align: left" class="mobile-center">
+                          <h2 style="font-size: 30px; margin: 30px 0 30px 0; line-height: 35px">Keeping your money safe</h2>
+                          <p style="margin: 0 0 30px 0">When you add your cards to Curve, your money is still safe with your bank. We only hold minimal funds in Curve Cash, which is also protected</p>
+
+                          <!-- CTA -->
+                          <div>
+                            <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="80%" stroke="f" fillcolor="#DC1F26">
+                      <w:anchorlock/>
+                      <center>
+                    <![endif]-->
+                            <a href="https://www.curve.com" style="background-color: #dc1f26; border-radius: 24px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 18px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; width: 200px; margin: 0px 0px 0px 0px; -webkit-text-size-adjust: none">LEARN MORE</a>
+                            <!--[if mso]>
+                      </center>
+                    </v:roundrect>
+                    <![endif]-->
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                </td>
+              </tr>
+					</table>
+					<![endif]-->
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+				</td>
+				</tr>
+				</table>
+				<![endif]-->
           </td>
         </tr>
         <!-- 2-COLUMN SCAFFOLD [CENTERING, FLUID] // -->
 
         <!--  2-COLUMN SCAFFOLD [CENTERING, FLUID] -->
         <tr>
-          <td align="center" height="100%" valign="top" width="100%" style="background-color: #1e1e1e; color: #ffffff; line-height: 22px">
+          <td align="center" height="100%" valign="top" width="100%" style="background: #fff; color: #111; background-image: linear-gradient(#fff, #fff)">
             <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px">
+              <tr>
+                <td align="center" valign="center" style="font-size: 0; padding: 40px 40px 75px 40px">
+                  <!--[if (gte mso 9)|(IE)]>
                 <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
                 <tr>
-                <td align="center" valign="top" width="640">
+                
+                <td align="left" valign="top" width="300">
                 <![endif]-->
-            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
-              <tr>
-                <td align="center" valign="center" style="font-size: 0; display: table-cell; padding: 0px 25px 75px 25px">
-                  <!--[if (gte mso 9)|(IE)]>
-                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
-                    <tr>
-                    <td align="left" valign="top" width="300">
-                    <![endif]-->
                   <div style="display: inline-block; max-width: 50%; vertical-align: top; width: 100%" class="mobile">
                     <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px">
                       <tr>
-                        <td align="center" valign="center" style="font-size: 16px; padding: 75px 25px 0px 25px">
-                          <img style="display: block; max-width: 120px; min-width: 75px; width: 100%" src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1626182573/email/templates/illustration-4.png" alt="Curve" />
-                          <p style="margin: 30px 0 30px 0; text-align: center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro voluptates quo, cupiditate ex placeat alias doloremque minima laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, rerum. Et corrupti explicabo nam? Eaque quibusdam commodi molestias eius cupiditate eos.</p>
+                        <td align="center" valign="center" style="font-size: 16px">
+                          <img style="margin: 40px 0 0 0; display: block; max-width: 180px; min-width: 75px; width: 100%" src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1627554740/email/templates/assistance.png" alt="Curve" />
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                </td>
+                  <td align="left" valign="top" width="300">
+                  <![endif]-->
+                  <div style="display: inline-block; max-width: 50%; vertical-align: top; width: 100%" class="mobile">
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px">
+                      <tr>
+                        <td align="center" valign="center" style="font-size: 16px; line-height: 22px; text-align: left" class="mobile-center">
+                          <div style="background: #fff; mix-blend-mode: exclusion">
+                            <h3 style="font-size: 30px; line-height: 30px; margin: 30px auto 30px auto; background-color: #ffffff; mix-blend-mode: difference">Run into trouble?</h3>
+                          </div>
+                          <div style="background: #fff; mix-blend-mode: exclusion">
+                            <p style="margin: 30px 0 30px 0; line-height: 22px; background-color: #ffffff; mix-blend-mode: difference">Issues with your new Curve card/app? Our robot-free team of customer experience champs can help.</p>
+                          </div>
+
                           <!-- CTA -->
                           <div>
                             <!--[if mso]>
-                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:150px;" arcsize="80%" stroke="f" fillcolor="#DC1F26">
-                      <w:anchorlock/>
-                      <center>
-                    <![endif]-->
-                            <a href="https://www.curve.com" style="background-color: #dc1f26; border-radius: 24px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 18px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; width: 150px; margin: 0px 0px 0px 0px; -webkit-text-size-adjust: none">CTA</a>
+                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="80%" stroke="f" fillcolor="#DC1F26">
+                            <w:anchorlock/>
+                            <center>
+                          <![endif]-->
+                            <a href="https://www.curve.com" style="background-color: #dc1f26; border-radius: 24px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 18px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; width: 200px; margin: 0px 0px 0px 0px; -webkit-text-size-adjust: none">GET IN TOUCH</a>
                             <!--[if mso]>
-                      </center>
-                    </v:roundrect>
-                    <![endif]-->
+                            </center>
+                          </v:roundrect>
+                          <![endif]-->
                           </div>
                         </td>
                       </tr>
                     </table>
                   </div>
                   <!--[if (gte mso 9)|(IE)]>
-                      </td>
-                      <td align="left" valign="top" width="300">
-                      <![endif]-->
-                  <div style="display: inline-block; max-width: 50%; vertical-align: top; width: 100%" class="mobile">
-                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px">
-                      <tr>
-                        <td align="center" valign="center" style="font-size: 16px; text-align: center; padding: 75px 25px 75px 25px">
-                          <img style="display: block; max-width: 120px; min-width: 75px; margin: 0 auto; width: 100%" src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1626182574/email/templates/illustration-3.png" alt="Curve" />
-                          <p style="margin: 30px 0 30px 0; text-align: center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro voluptates quo, cupiditate ex placeat alias doloremque minima laborum.</p>
-                          <!-- CTA -->
-                          <div>
-                            <!--[if mso]>
-                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:150px;" arcsize="80%" stroke="f" fillcolor="#DC1F26">
-                      <w:anchorlock/>
-                      <center>
-                    <![endif]-->
-                            <a href="https://www.curve.com" style="background-color: #dc1f26; border-radius: 24px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 18px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; width: 150px; margin: 0px 0px 0px 0px; -webkit-text-size-adjust: none">CTA</a>
-                            <!--[if mso]>
-                      </center>
-                    </v:roundrect>
-                    <![endif]-->
-                          </div>
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                  <!--[if (gte mso 9)|(IE)]>
-              </td>
+                </td>
               </tr>
-              </table>
-              <![endif]-->
+					</table>
+					<![endif]-->
                 </td>
               </tr>
             </table>
             <!--[if (gte mso 9)|(IE)]>
-            </td>
-            </tr>
-            </table>
-            <![endif]-->
+				</td>
+				</tr>
+				</table>
+				<![endif]-->
           </td>
         </tr>
         <!-- 2-COLUMN SCAFFOLD [CENTERING, FLUID] // -->
 
-        <!--  1-COLUMN SCAFFOLD [CENTERING, FLUID] -->
-        <tr>
-          <td align="center" height="100%" valign="top" width="100%" style="background-color: #ffffff; background-image: linear-gradient(#fff, #fff); color: #1e1e1e; padding: 75px 50px 75px 50px">
-            <!--[if (gte mso 9)|(IE)]>
-				  <table align="center" border="0" cellspacing="0" cellpadding="0" width="450">
-				  <tr>
-				  <td align="center" valign="top" width="450">
-				  <![endif]-->
-            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 350px">
-              <tr>
-                <td align="center" valign="top" style="background: #fff; color: #111; background-image: linear-gradient(#fff, #fff)">
-                  <div style="background: #fff; mix-blend-mode: exclusion">
-                    <h3 style="font-size: 30px; line-height: 30px; margin: 0px auto 25px auto; text-align: center; background-color: #ffffff; mix-blend-mode: difference">Lorem ipsum dolor sit amet.</h3>
-                  </div>
-                  <!-- Body copy -->
-                  <div style="background: #fff; mix-blend-mode: exclusion">
-                    <p style="text-align: center; line-height: 22px; background-color: #ffffff; mix-blend-mode: difference">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi velit auctor eu a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi velit auctor eu a.</p>
-                  </div>
-
-                  <!-- CTA -->
-                  <div>
-                    <!--[if mso]>
-                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:150px;" arcsize="80%" stroke="f" fillcolor="#DC1F26">
-                      <w:anchorlock/>
-                      <center>
-                    <![endif]-->
-                    <a href="http://" style="background-color: #dc1f26; border-radius: 24px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 18px; font-weight: bold; line-height: 40px; text-align: center; text-decoration: none; width: 150px; margin: 25px 0px 0px 0px; -webkit-text-size-adjust: none">CTA</a>
-                    <!--[if mso]>
-                    </center>
-                  </v:roundrect>
-                  <![endif]-->
-                  </div>
-                </td>
-              </tr>
-            </table>
-            <!--[if (gte mso 9)|(IE)]>
-				  </td>
-				  </tr>
-				  </table>
-				  <![endif]-->
-          </td>
-        </tr>
-        <!--  1-COLUMN SCAFFOLD [CENTERING, FLUID] -->
-
-        <!-- Footer -->
+        <!-- FOOTER -->
         <tr>
           <td align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
             <!-- Footer information. Always include an unsubscribe link! -->
-            <div style="background-color: #1e1e1e; color: #ffffff; font-size: 16px; padding: 50px 50px 75px 50px; border-bottom-left-radius: 24px; border-bottom-right-radius: 24px; background-image: url(https://res.cloudinary.com/dzatxn6bx/image/upload/v1626261742/email/templates/footer-bg.png); background-repeat: no-repeat; background-position: 25% bottom; margin: 0px 0px 50px 0px">
+            <div style="background-color: #1e1e1e; color: #ffffff; font-size: 16px; padding: 50px 25px 75px 25px; border-bottom-left-radius: 24px; border-bottom-right-radius: 24px; background-image: url(https://res.cloudinary.com/dzatxn6bx/image/upload/v1626261742/email/templates/footer-bg.png); background-repeat: no-repeat; background-position: 25% bottom; margin: 0px 0px 50px 0px">
               <center>
                 <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
                   <!--  1-COLUMN SCAFFOLD -->
                   <tr>
+                    <td align="center" height="100%" valign="top" width="100%">
+                      <!--[if (gte mso 9)|(IE)]>
+                      <table align="center" border="0" cellspacing="0" cellpadding="0" width="200">
+                      <tr>
+                      <td align="center" valign="top" width="200">
+                      <![endif]-->
+                      <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" role="presentation">
+                        <tr>
+                          <td>
+                            <h3 style="text-align: center; font-size: 30px; line-height: 30px; margin: 0; padding: 50px 0 0 0">We do good Twitter.</h3>
+                          </td>
+                        </tr>
+                      </table>
+                      <!--[if (gte mso 9)|(IE)]>
+                      </td>
+                      </tr>
+                      </table>
+                      <![endif]-->
+                    </td>
+                  </tr>
+                  <!-- 1-COLUMN SCAFFOLD // -->
+                  <!--  1-COLUMN SCAFFOLD -->
+                  <tr>
                     <td align="center" height="100%" valign="top" width="100%" style="padding: 50px 0px 50px 0px">
                       <!--[if (gte mso 9)|(IE)]>
-          <table align="center" border="0" cellspacing="0" cellpadding="0" width="200">
-          <tr>
-          <td align="center" valign="top" width="200">
-          <![endif]-->
+                      <table align="center" border="0" cellspacing="0" cellpadding="0" width="200">
+                      <tr>
+                      <td align="center" valign="top" width="200">
+                      <![endif]-->
                       <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 200px" role="presentation">
                         <tr>
                           <td style="width: 35px">
@@ -492,10 +545,10 @@
                         </tr>
                       </table>
                       <!--[if (gte mso 9)|(IE)]>
-          </td>
-          </tr>
-          </table>
-          <![endif]-->
+                      </td>
+                      </tr>
+                      </table>
+                      <![endif]-->
                     </td>
                   </tr>
                   <!-- 1-COLUMN SCAFFOLD // -->
@@ -508,8 +561,8 @@
                   <a style="color: #ffffff" href="https://www.curve.com/">www.curve.com</a>
                 </p>
                 <div style="color: #8e8e93">
-                  <a href="" style="font-size: 12px; color: #8e8e93; margin: 0 8px 8px 0">Help Centre</a> | <a href="" style="font-size: 12px; color: #8e8e93; margin: 0 8px 0 8px">Privacy</a> | <a href="" style="font-size: 12px; color: #8e8e93; margin: 0 8px 0 8px">Legal</a> |
-                  <a href="" style="font-size: 12px; color: #8e8e93; margin: 0 0 0 8px">Unsubscribe</a>
+                  <a href="https://www.curve.com/" style="font-size: 12px; color: #8e8e93; margin: 0 8px 8px 0">Help Centre</a> | <a href="https://www.curve.com/" style="font-size: 12px; color: #8e8e93; margin: 0 8px 0 8px">Privacy</a> | <a href="https://www.curve.com/" style="font-size: 12px; color: #8e8e93; margin: 0 8px 0 8px">Legal</a> |
+                  <a href="https://www.curve.com/" style="font-size: 12px; color: #8e8e93; margin: 0 0 0 8px">Unsubscribe</a>
                 </div>
               </center>
             </div>
