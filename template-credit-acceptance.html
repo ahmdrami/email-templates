@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Curve</title>
+    <meta name="color-scheme" content="light" />
+    <meta name="supported-color-schemes" content="light" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--[if mso]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG />
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+    <![endif]-->
+    <style type="text/css">
+      /* LOAD FONT FAMILY */
+      @font-face {
+        font-family: "HelveticaNow";
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://res.cloudinary.com/dzatxn6bx/raw/upload/v1597942273/fonts/helvetica-now-text-regular.woff) format("woff");
+        src: url(https://res.cloudinary.com/dzatxn6bx/raw/upload/v1597942273/fonts/helvetica-now-text-regular.woff2) format("woff2");
+      }
+      @font-face {
+        font-family: "HelveticaNow";
+        font-style: normal;
+        font-weight: 900;
+        src: url(https://res.cloudinary.com/dzatxn6bx/raw/upload/v1626085591/fonts/HelveticaNowText-Black.woff) format("woff");
+        src: url(https://res.cloudinary.com/dzatxn6bx/raw/upload/v1626085591/fonts/HelveticaNowText-Black.woff2) format("woff2");
+      }
+      /* CLIENT-SPECIFIC STYLES */
+      :root {
+        color-scheme: light;
+      }
+
+      body,
+      table,
+      td,
+      a {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      table,
+      td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      img {
+        -ms-interpolation-mode: bicubic;
+      }
+
+      /* RESET STYLES */
+      img {
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+      }
+      table {
+        border-collapse: collapse !important;
+      }
+      body {
+        height: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        font-family: "HelveticaNow", Helvetica, Roboto, Verdana, Arial, sans-serif, sans-serif;
+        background-color: #ffffff;
+      }
+
+      /* iOS BLUE LINKS */
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+
+      /* GMAIL BLUE LINKS */
+      u + #body a {
+        color: inherit;
+        text-decoration: none;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+      }
+
+      /* SAMSUNG MAIL BLUE LINKS */
+      #MessageViewBody a {
+        color: inherit;
+        text-decoration: none;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+      }
+
+      /* Universal styles for links and stuff */
+      a {
+        color: #dc1f26;
+        font-weight: inherit;
+      }
+      a:hover {
+        color: #229efd;
+        text-decoration: none;
+      }
+      a.button:hover {
+        background-color: #229efd !important;
+      }
+
+      /* Responsive styles */
+      @media screen and (max-width: 640px) {
+        h1 {
+          font-size: 45px !important;
+          line-height: 45px !important;
+        }
+        .mobile {
+          max-width: 100% !important;
+          width: 100% !important;
+        }
+        .mobile-center {
+          text-align: center !important;
+        }
+      }
+      @media (prefers-color-scheme: dark) {
+        .light-bg {
+          background-color: #ffffff !important;
+        }
+        .dark-text {
+          color: #1e1e1e !important;
+        }
+      }
+      @media screen and (max-width: 500px) {
+        .mobile-hero-height {
+          height: 200px !important;
+          max-width: 180px;
+        }
+      }
+      /* Custom Dark Mode Text Link Color */
+      [data-ogsc] .light-bg {
+        background-color: #ffffff !important;
+      }
+      [data-ogsc] .dark-text {
+        color: #1e1e1e !important;
+      }
+    </style>
+  </head>
+  <body id="body" style="margin: 0 !important; padding: 0 !important; background-image: url(https://res.cloudinary.com/dzatxn6bx/image/upload/v1626252675/email/templates/grey-bg.jpg)">
+    <!-- Preview text for the inbox -->
+    <div style="display: none; max-height: 0; overflow: hidden">This will be displayed underneath the subject line. Use it wisely.</div>
+    <!--[if (gte mso 9)|(IE)]>
+		  <table cellspacing="0" cellpadding="0" border="0" width="640" align="center" role="presentation"><tr><td>
+		  <![endif]-->
+
+    <div style="font-family: 'HelveticaNow', Helvetica, Roboto, Verdana, Arial, sans-serif; font-size: 16px; margin: 24px auto 0px auto; max-width: 640px; padding: 50px 12px">
+      <!-- Logo image -->
+      <center>
+        <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+          <!--  1-COLUMN SCAFFOLD -->
+          <tbody>
+            <tr>
+              <td align="center" height="100%" valign="top" width="100%">
+                <!--[if (gte mso 9)|(IE)]>
+                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="660">
+                    <tr>
+                    <td align="center" valign="top" width="660">
+                    <![endif]-->
+                <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="background-color: #ffffff; margin: 0 !important; height: 78px; border-top-left-radius: 24px; border-top-right-radius: 24px" valign="middle"><img alt="Curve brand logo" border="0" src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1626268159/email/templates/curve-logo-dark.png" style="width: 142px" width="142px" /></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->
+              </td>
+            </tr>
+            <!-- END 1-COLUMN SCAFFOLD  -->
+          </tbody>
+        </table>
+      </center>
+
+      <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+        <!-- 1-COLUMN SCAFFOLD -->
+        <tbody>
+          <!-- 1-COLUMN SCAFFOLD -->
+          <tr>
+            <td align="center" height="100%" style="background: #ffffff; background-image: linear-gradient(#fff, #fff); padding: 0 24px;" valign="top" width="100%">
+              <!--[if (gte mso 9)|(IE)]>
+        <table align="center" border="0" cellspacing="0" cellpadding="0" width="450">
+        <tr>
+        <td align="center" valign="top" width="450">
+        <![endif]-->
+              <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td align="center" style="background: #fff; color: #111; background-image: linear-gradient(#fff, #fff)" valign="top"><!-- Main title --></td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="top" width="100%"><!-- Hero image --><img alt="A cheerful looking mailbox in front of green plants and flowers." border="0" src="https://cdn.braze.eu/appboy/communication/assets/image_assets/images/611673eea278bb1a83570ed8/original.gif?1628861422" style="display: block; max-width: 500px; min-width: 75px; width: 100%" /></td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="background: #fff; color: #111; background-image: linear-gradient(#fff, #fff)" valign="top">
+                      <!-- Body copy -->
+                      <div style="background: #fff; mix-blend-mode: exclusion; max-width: 450px">
+                        <h3 style="font-size: 30px; line-height: 30px; margin: 30px auto 30px auto; text-align: center; background-color: #ffffff; mix-blend-mode: difference">Get set to Flex</h3>
+                      </div>
+
+                      <div style="background: #fff; mix-blend-mode: exclusion; max-width: 450px">
+                        <p style="margin: 0 0 40px 0; text-align: center; line-height: 22px; background-color: #fff; mix-blend-mode: difference">
+                          You’ve been approved!<br />
+                          <br />
+                          You can now use Flex to turn payments (up to a year old) into manageable monthly installments.<br />
+                          <br />
+                          You can Flex between £250-£5000, depending on affordability checks.
+                        </p>
+                      </div>
+                      <!-- CTA -->
+
+                      <div>
+                        <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:50px;v-text-anchor:middle;width:250px;" arcsize="80%" stroke="f" fillcolor="#1e1e1e">
+                      <w:anchorlock/>
+                      <center>
+                    <!
+                        [endif]--><a href="https://link.curve.com/77mcQbWUpib" style="background-color: #1e1e1e; border-radius: 24px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 18px; font-weight: bold; line-height: 45px; text-align: center; text-decoration: none; padding: 0 12px; margin: 0px 0px 40px 0px; -webkit-text-size-adjust: none">HOW MUCH CAN I FLEX?</a>
+                        <!--[if mso]>
+                      </center>
+                    </v:roundrect>
+                    <![endif]-->
+                      </div>
+
+                      <div style="background: #fff; mix-blend-mode: exclusion; max-width: 300px">
+                        <p style="margin: 0 auto 40px auto; text-align: center; line-height: 22px; background-color: #fff; mix-blend-mode: difference; font-size: 12px"><span style="font-size: 16px">Go to X > Tap X > Tap X .</span></p>
+                      </div>
+
+                      <div style="background: #fff; mix-blend-mode: exclusion; max-width: 300px">
+                        <p style="margin: 0 auto 40px auto; text-align: center; line-height: 22px; background-color: #fff; mix-blend-mode: difference; font-size: 12px">*A few exclusions apply. Flex past transactions up to 12 months old. .</p>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+            </td>
+          </tr>
+          <!-- END 1-COLUMN SCAFFOLD // -->
+          <tr>
+            <td align="center" height="100%" style="background-color: #1e1e1e; color: #ffffff" valign="top" width="100%">
+              <!--[if (gte mso 9)|(IE)]>
+				  <table align="center" border="0" cellspacing="0" cellpadding="0" width="450">
+				  <tr>
+				  <td align="center" valign="top" width="450">
+				  <![endif]-->
+              <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 450px" width="100%">
+                <tbody>
+                  <tr>
+                    <td align="center" valign="top">
+                      <h3 style="font-size: 30px; line-height: 30px; margin: 100px auto 30px auto; text-align: center; color: #ffffff">How to flex</h3>
+
+                      <!-- Hero image -->
+                      <div class="mobile-hero-height" style="height: 315px">
+                        <img alt="A cheerful looking mailbox in front of green plants and flowers." border="0" src="https://cdn.braze.eu/appboy/communication/assets/image_assets/images/61167361119ebd4b367c0d32/original.gif?1628861281" style="display: block; margin: 60px 0 0 0; max-width: 250px; width: 100%" />
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!--[if (gte mso 9)|(IE)]>
+				  </td>
+				  </tr>
+				  </table>
+				  <![endif]-->
+            </td>
+          </tr>
+          <!-- END 1-COLUMN SCAFFOLD --><!-- START 1-COLUMN SCAFFOLD -->
+          <tr>
+            <td align="center" height="100%" valign="top" width="100%">
+              <!--[if (gte mso 9)|(IE)]>
+				  <table align="center" border="0" cellspacing="0" cellpadding="0" width="450">
+				  <tr>
+				  <td align="center" valign="top" width="450">
+				  <![endif]-->
+              <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                  <tr>
+                    <td align="center" style="background: #fff; color: #111; background-image: linear-gradient(#fff, #fff); padding: 75px 50px 50px 50px" valign="top">
+                      <div style="background: #fff; max-width: 450px; height: 125px"></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!--[if (gte mso 9)|(IE)]>
+				  </td>
+				  </tr>
+				  </table>
+				  <![endif]-->
+            </td>
+          </tr>
+          <!-- END 1-COLUMN SCAFFOLD -->
+          <!--  2-COLUMN SCAFFOLD [CENTERING, FLUID] -->
+          <tr>
+            <td align="center" height="100%" style="background-color: #e0e0e0; color: #1e1e1e" valign="top" width="100%">
+              <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+              <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px" width="100%">
+                <tbody>
+                  <tr>
+                    <td align="center" style="font-size: 0; padding: 40px 40px 40px 40px" valign="center">
+                      <!--[if (gte mso 9)|(IE)]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                <tr>
+                <td align="left" valign="top" width="300">
+                <![endif]-->
+                      <div class="mobile" style="display: inline-block; max-width: 50%; vertical-align: top; width: 100%">
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px" width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="center" style="font-size: 16px" valign="center">
+                                <img alt="Curve" src="https://cdn.braze.eu/appboy/communication/assets/image_assets/images/6116729d1bd421123b6afde1/original.png?1628861085" style="margin: 0 0 0 0; display: block; max-width: 180px; min-width: 75px; width: 100%" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                  <td align="left" valign="top" width="300">
+                  <![endif]-->
+
+                      <div class="mobile" style="display: inline-block; max-width: 50%; vertical-align: top; width: 100%">
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px" width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="center" class="mobile-center" style="font-size: 16px; line-height: 22px; text-align: left" valign="center">
+                                <h2 style="font-size: 30px; margin: 30px 0 30px 0; line-height: 35px">Swipe</h2>
+
+                                <p style="margin: 0 0 30px 0">On a payment you’ve made in the last 12 months.<sup style="font-size: 70%; line-height: 1; vertical-align: top; mso-text-raise: 0%">2 </sup></p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!--[if (gte mso 9)|(IE)]>
+					</td>
+					</tr>
+					</table>
+					<![endif]-->
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!--[if (gte mso 9)|(IE)]>
+				</td>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+          </tr>
+          <!--  2-COLUMN SCAFFOLD [CENTERING, FLUID] -->
+          <tr>
+            <td align="center" height="100%" style="background-color: #1e1e1e; color: #ffffff" valign="top" width="100%">
+              <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+              <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px" width="100%">
+                <tbody>
+                  <tr>
+                    <td align="center" dir="rtl" style="font-size: 0; padding: 40px 40px 40px 40px" valign="center">
+                      <!--[if (gte mso 9)|(IE)]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                <tr>
+             
+                <td align="left" valign="top" width="300">
+                <![endif]-->
+                      <div class="mobile" style="display: inline-block; max-width: 50%; vertical-align: top; width: 100%">
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px" width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="center" style="font-size: 16px" valign="center">
+                                <img alt="Curve" src="https://cdn.braze.eu/appboy/communication/assets/image_assets/images/611672c67051ba4748959dad/original.png?1628861126" style="margin: 0 0 0 0; display: block; max-width: 180px; min-width: 75px; width: 100%" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!--[if (gte mso 9)|(IE)]>
+                </td>
+                     <td align="left" valign="top" width="300">
+                  <![endif]-->
+
+                      <div class="mobile" style="display: inline-block; max-width: 50%; vertical-align: top; width: 100%">
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px" width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="center" class="mobile-center" style="font-size: 16px; line-height: 22px; text-align: left" dir="ltr" valign="center">
+                                <h2 style="font-size: 30px; margin: 30px 0 30px 0; line-height: 35px">Split</h2>
+
+                                <p style="margin: 0 0 30px 0">into 3-12 monthly instalments and we’ll refund you the original transaction.</p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!--[if (gte mso 9)|(IE)]>
+                </td>
+              </tr>
+					</table>
+					<![endif]-->
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!--[if (gte mso 9)|(IE)]>
+				</td>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+          </tr>
+          <!-- 2-COLUMN SCAFFOLD [CENTERING, FLUID] // --><!--  2-COLUMN SCAFFOLD [CENTERING, FLUID] -->
+          <tr>
+            <td align="center" height="100%" style="background: #e0e0e0; color: #111111" valign="top" width="100%">
+              <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+              <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px" width="100%">
+                <tbody>
+                  <tr>
+                    <td align="center" style="font-size: 0; padding: 40px 40px 40px 40px" valign="center">
+                      <!--[if (gte mso 9)|(IE)]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+                <tr>
+                
+                <td align="left" valign="top" width="300">
+                <![endif]-->
+                      <div class="mobile" style="display: inline-block; max-width: 50%; vertical-align: top; width: 100%">
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px" width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="center" style="font-size: 16px" valign="center">
+                                <img alt="Curve" src="https://cdn.braze.eu/appboy/communication/assets/image_assets/images/611672e3c45ed4485738cdb7/original.png?1628861155" style="margin: 0 0 0 0; display: block; max-width: 180px; min-width: 75px; width: 100%" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!--[if (gte mso 9)|(IE)]>
+                </td>
+                  <td align="left" valign="top" width="300">
+                  <![endif]-->
+
+                      <div class="mobile" style="display: inline-block; max-width: 50%; vertical-align: top; width: 100%">
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 640px" width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="center" class="mobile-center" style="font-size: 16px; line-height: 22px; text-align: left" valign="center">
+                                <h3 style="font-size: 30px; line-height: 30px; margin: 30px auto 30px auto">See ya later!</h3>
+
+                                <p style="margin: 30px 0 30px 0; line-height: 22px">Your first Flex repayment will be due in 30 days.</p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!--[if (gte mso 9)|(IE)]>
+                </td>
+              </tr>
+					</table>
+					<![endif]-->
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!--[if (gte mso 9)|(IE)]>
+				</td>
+				</tr>
+				</table>
+				<![endif]-->
+            </td>
+          </tr>
+          <!-- 2-COLUMN SCAFFOLD [CENTERING, FLUID] // --><!-- FOOTER -->
+          <tr>
+            <td align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+              <!-- Footer information. Always include an unsubscribe link! -->
+              <div style="background-color: #1e1e1e; color: #ffffff; font-size: 16px; padding: 50px 12px 75px 12px; border-bottom-left-radius: 24px; border-bottom-right-radius: 24px; background-image: url(https://res.cloudinary.com/dzatxn6bx/image/upload/v1626261742/email/templates/footer-bg.png); background-repeat: no-repeat; background-position: 25% bottom; margin: 0px 0px 50px 0px">
+                <center>
+                  <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+                    <!--  1-COLUMN SCAFFOLD -->
+                    <tbody>
+                      <tr>
+                        <td align="center" height="100%" valign="top" width="100%">
+                          <!--[if (gte mso 9)|(IE)]>
+                      <table align="center" border="0" cellspacing="0" cellpadding="0" width="200">
+                      <tr>
+                      <td align="center" valign="top" width="200">
+                      <![endif]-->
+                          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <h3 style="text-align: center; font-size: 30px; line-height: 30px; margin: 0; padding: 50px 0 0 0">We do good Twitter.</h3>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!--[if (gte mso 9)|(IE)]>
+                      </td>
+                      </tr>
+                      </table>
+                      <![endif]-->
+                        </td>
+                      </tr>
+                      <!-- 1-COLUMN SCAFFOLD // --><!--  1-COLUMN SCAFFOLD -->
+                      <tr>
+                        <td align="center" height="100%" style="padding: 50px 0px 50px 0px" valign="top" width="100%">
+                          <!--[if (gte mso 9)|(IE)]>
+                      <table align="center" border="0" cellspacing="0" cellpadding="0" width="200">
+                      <tr>
+                      <td align="center" valign="top" width="200">
+                      <![endif]-->
+                          <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="max-width: 200px" width="100%">
+                            <tbody>
+                              <tr>
+                                <td style="width: 35px">
+                                  <a href="https://twitter.com/imaginecurve"><img alt="Twitter" src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1626105132/email/templates/social/twitter.png" style="height: auto; display: block; border: 0" width="35" /> </a>
+                                </td>
+                                <td style="padding: 0 0 0 50px; width: 35px">
+                                  <a href="https://www.instagram.com/imaginecurve/"><img alt="Twitter" src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1626105132/email/templates/social/instagram.png" style="height: auto; display: block; border: 0" width="35" /> </a>
+                                </td>
+                                <td style="padding: 0 0 0 50px; width: 35px">
+                                  <a href="https://www.facebook.com/imaginecurve"><img alt="Twitter" src="https://res.cloudinary.com/dzatxn6bx/image/upload/v1626105132/email/templates/social/facebook.png" style="height: auto; display: block; border: 0" width="35" /> </a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!--[if (gte mso 9)|(IE)]>
+                      </td>
+                      </tr>
+                      </table>
+                      <![endif]-->
+                        </td>
+                      </tr>
+                      <!-- 1-COLUMN SCAFFOLD // -->
+                    </tbody>
+                  </table>
+                </center>
+
+                <center>
+                  <p style="text-align: center; font-size: 12px; margin: 0 0 20px 0">Copyright - 2021 © Curve OS Limited. All right reserved.</p>
+
+                  <p style="text-align: center; font-size: 12px; margin: 0px 0px 20px 0px"><a href="https://www.curve.com/" style="color: #ffffff">www.curve.com</a></p>
+
+                  <div style="color: #8e8e93"><a href="https://support.imaginecurve.com/hc/en-gb" style="font-size: 12px; color: #ffffff; margin: 0 8px 8px 0">Help Centre</a> | <a href="https://www.curve.com/en-gb/legal/privacy/index.html/" style="font-size: 12px; color: #ffffff; margin: 0 8px 0 8px">Privacy</a> | <a href="https://www.curve.com/en-gb/legal/terms/index.html" style="font-size: 12px; color: #ffffff; margin: 0 8px 0 8px">Legal</a> | <a href="{{${set_user_to_unsubscribed_url}}}" style="font-size: 12px; color: #ffffff; margin: 0 0 0 8px">Unsubscribe</a></div>
+                </center>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+              <!-- Footer information. Always include an unsubscribe link! -->
+              <div style="background-color: transparent; color: #8e8e93; font-size: 10px; font-weight: 100; padding: 0px 12px 0px 12px">
+                <center>
+                  <p style="text-align: center; font-size: 10px; margin: 0 0 20px 0">
+                    <sup style="font-size: 70%; line-height: 1; vertical-align: top; mso-text-raise: 0%">2 </sup><br />
+                    <br />
+                    <sup style="font-size: 70%; line-height: 1; vertical-align: top">3</sup><br />
+                    <br />
+                    The Curve Card, Samsung Pay+ and the E-money related to these cards is issued in the UK by Curve OS Limited, authorised in the UK by the Financial Conduct Authority to issue electronic money (firm reference number 900926). The Curve Card and the e-money related to cards issued in the EEA is issued by Curve Europe UAB, authorised in Lithuania by the Bank of Lithuania (electronic money institution license No. 73 issued on 22 of October, 2020). The Curve Card and Samsung Pay+ are issued pursuant to license by Mastercard International Inc. Mastercard® is a registered trademark of Mastercard International Incorporated.
+                  </p>
+
+                  <p style="text-align: center; font-size: 10px; margin: 0 0 20px 0">Curve OS Limited is registered in England and Wales, United Kingdom (company reference number: 09523903) and located at 15-19 Bloomsbury Way, London, England, WC1A 2TH. Curve Europe UAB, registered in Lithuania (company reference number: 305626541) and located at Jogailos g. 9, LT-01116 Vilnius</p>
+                </center>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if (gte mso 9)|(IE)]>
+		  </td></tr></table>
+		  <![endif]-->
+  </body>
+</html>
